@@ -1,0 +1,12 @@
+#计算的最终因子池列表
+[calc_pool_names]
+#key是因子数据集名称,也是存储因子的表名,value是该池中要计算的因子
+CycAlphaV1 = [
+    # # 第二版自己和尤恺的因子
+    'cyc_k1_alpha0001',
+    'cyc_k1_alpha0002', 
+    'cyc_k1_alpha0003',
+    ]
+
+#@todo 订阅的最终因子池列表,订阅的最终因子池本地不负责运算
+#[sub_pool_names]
